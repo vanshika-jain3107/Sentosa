@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-ivory: #F5EFE5;
+  --color-cream: #FBF8F2;
+  --color-espresso: #292621;
+  --color-sage: #737965;
+  --color-terracotta: #C94B45;
+  --color-sand: #C9A77D;
+  --color-charcoal: #45423D;
+
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+
+  --ease-steam: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-pour: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-settle: cubic-bezier(0.34, 1.26, 0.64, 1);
+  --ease-drift: cubic-bezier(0.83, 0, 0.17, 1);
+}
+
+:root {
+  background-color: var(--color-ivory);
+  color: var(--color-espresso);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+html {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Reduced motion guard */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 200ms !important;
+    scroll-behavior: auto !important;
+    transform: none !important;
+    opacity: 0.5;
+  }
+}
+
+/* 12-column grid with asymmetric gutters and margins */
+.sentosa-grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 28px;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+@media (min-width: 768px) {
+  .sentosa-grid {
+    gap: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .sentosa-grid {
+    gap: 40px;
+    padding-left: 8vw;
+    padding-right: 5vw;
+  }
+}
