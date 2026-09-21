@@ -184,7 +184,7 @@ export function Booking() {
 *Guests:* ${formData.guests}
 ${formData.notes ? `*Notes:* ${formData.notes}` : ''}`.trim();
 
-      const whatsappUrl = `https://wa.me/918949152570?text=${encodeURIComponent(message)}`;
+      const whatsappUrl = `https://wa.me/919351826108?text=${encodeURIComponent(message)}`;
       
       window.open(whatsappUrl, '_blank');
       setStatus('success');
@@ -390,7 +390,7 @@ ${formData.notes ? `*Notes:* ${formData.notes}` : ''}`.trim();
             </div>
             
             <div className="flex flex-col">
-              <ContactRow label="Phone" href="tel:+918949152570" delay={0.1} />
+              <ContactRow label="Phone" href="tel:+919351826108" delay={0.1} />
               <ContactRow label="Email" href="mailto:hello@sentosacoffee.com" delay={0.2} />
               <ContactRow label="Instagram" href="https://instagram.com" delay={0.3} />
             </div>

@@ -73,10 +73,10 @@ export function Footer() {
             Contact Us
           </div>
           <div className="font-body text-[16px] text-ivory/80 leading-[1.8] font-light mb-6">
-            +91 89491 52570
+            +91 93518 26108
           </div>
           <a 
-            href="https://wa.me/918949152570" 
+            href="https://wa.me/919351826108" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center bg-[#292621] text-[#e5dfd3] font-body text-[13px] px-6 py-3 hover:bg-[#1a1815] transition-colors duration-300"

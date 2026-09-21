@@ -63,14 +63,16 @@ export function Menu() {
           className="mb-8"
         >
           <img 
-            src="/menu-qr.png" 
+            src="/sentosa_menu_qr.png" 
             alt="Menu QR Code"
             className="w-[200px] h-[200px] object-cover rounded-lg"
           />
         </motion.div>
 
         <motion.a 
-          href="#"
+          href="https://drive.google.com/file/d/1h-6kp_wrMEfoc4EdghqDT0g22NeIRpXr/view?usp=drive_web"
+          target="_blank"
+          rel="noopener noreferrer"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-10%" }}

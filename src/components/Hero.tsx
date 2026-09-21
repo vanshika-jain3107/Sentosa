@@ -34,7 +34,7 @@ export function Hero() {
         
         {/* Desktop Video */}
         <motion.video 
-          src="/hero-bg2.mp4"
+          src="/hero-bg-desktop.webm"
           autoPlay
           muted
           playsInline
@@ -46,7 +46,7 @@ export function Hero() {
         
         {/* Mobile Video */}
         <motion.video 
-          src="/hero-bg-mobile.mp4"
+          src="/hero-bg-mobile.webm"
           autoPlay
           muted
           playsInline
